@@ -1,0 +1,39 @@
+﻿**********************
+Windows PowerShell トランスクリプト開始
+開始時刻: 20220723185219
+ユーザー名: GAMEPC\windo
+RunAs ユーザー: GAMEPC\windo
+構成名: 
+コンピューター: GAMEPC (Microsoft Windows NT 10.0.19042.0)
+ホスト アプリケーション: C:\windows\System32\WindowsPowerShell\v1.0\powershell.exe
+プロセス ID: 12664
+PSVersion: 5.1.19041.1320
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1320
+BuildVersion: 10.0.19041.1320
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+トランスクリプトが開始されました。出力ファイル: log
+PS E:\Users\Pasocchi\Documents\github\smartphoneSearch> python -u "e:\Users\Pasocchi\Documents\github\smartphoneSearch\smartphone_search.py"
+KeyError: 'data'
+PS E:\Users\Pasocchi\Documents\github\smartphoneSearch> pip install pylint
+You should consider upgrading via the 'C:\Users\windo\AppData\Local\Programs\Python\Python310\python.exe -m pip install --upgrade pip' command.
+PS E:\Users\Pasocchi\Documents\github\smartphoneSearch> ot -Txxx
+ot : 用語 'ot' は、コマンドレット、関数、スクリプト ファイル、または操作可能なプログラムの名前として認識されません。名前が正しく記述されていることを確認し、パスが含まれている場合はそのパスが正しいことを確認してから、再試行してく
+ださい。
+発生場所 行:1 文字:1
++ ot -Txxx
++ ~~
+    + CategoryInfo          : ObjectNotFound: (ot:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ot : 用語 'ot' は、コマンドレット、関数、スクリプト ファイル、または操作可能なプログラムの名前として認識されません。名前が正しく記述されていることを確認し、パスが含まれている場合はそのパスが正しいこと
+を確認してから、再試行してください。
+発生場所 行:1 文字:1
++ ot -Txxx
++ ~~
+    + CategoryInfo          : ObjectNotFound: (ot:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
